@@ -1,0 +1,25 @@
+<p>link-list works!</p>
+<!-- <ul #links id="links"></ul> -->
+<ul>
+  <!-- <li *ngFor="let item of listData">
+    {{ item['Column1'] }} - {{ item['Column2']}} - {{ item['Column3']}} - {{ item['Column4'] }}
+  </li> -->
+  <li *ngFor="let link of links">
+    <!-- {{ item['Column1'] }} - {{ item['Column2']}} - {{ item['Column3']}} - {{ item['Column4'] }} -->
+    <div>
+      {{ link.category }}
+    </div>
+    <div>
+
+      {{ link.title}}
+    </div>
+    <div>
+
+      {{ link.description}}
+    </div>
+    <div>
+      {{ link.url }}
+
+    </div>
+  </li>
+</ul>

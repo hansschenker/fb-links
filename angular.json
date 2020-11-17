@@ -143,8 +143,16 @@
               "devServerTarget": "fb-links:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
-    }},
-  "defaultProject": "fb-links"
+    }
+  },
+  "defaultProject": "fb-links",
+  "cli": {
+    "analytics": "e8a24031-d306-4df6-a56a-a07a94428300"
+  }
 }
